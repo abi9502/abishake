@@ -1,63 +1,51 @@
-# Haribabu - Professional UI/UX Portfolio
+# Abishake R - Professional Portfolio
 
-A premium, high-performance personal portfolio built with **React 19** and **Vite**, designed specifically for a professional UI/UX Designer showcase. This project features state-of-the-art animations, a fully responsive custom grid, and a sleek dark-themed aesthetic.
+Welcome to the repository of my personal portfolio website! I am a **Python & Full Stack Developer** with experience in building responsive web applications, robust backend systems, and data-driven solutions. 
 
-## ✨ Key Features
+This portfolio showcases my professional journey, featured projects, technical skills, and more.
 
-- 📱 **Fully Responsive Design**: Optimized for everything from large 4K monitors to small mobile screens.
-- 🎨 **Premium Hero Section**:
-  - Custom profile circle with **rotating glow ring** and **floating animations**.
-  - Dynamic element reordering for mobile (Title → Photo → Slogan).
-  - Clean, high-performance SVG background waves.
-- 🚀 **Smooth Scrolling**: Integrated with **Lenis** for a silky-smooth browsing experience.
-- 💼 **Professional Sections**:
-  - **About Me**: Reveal-text animations and glassmorphism cards.
-  - **Experience & Education**: Timeline-based showcase with glow effects.
-  - **Service Cards**: Interactive hover reveals and custom branding.
-  - **Portfolio Grid**: High-quality project display with single-column mobile fallbacks.
-- 🛠️ **Modern Tech Stack**: Uses React Hooks, SASS, and Bootstrap 5 for a robust foundation.
+## 🚀 Live Preview
+Run the project locally to see the live portfolio:
+```bash
+npm install
+npm run dev
+```
+Then open `http://localhost:5173/` in your browser.
 
-## 🛠️ Technology Stack
+## 🛠️ Built With
 
-- **Core**: React 19, Vite
-- **Styling**: Vanilla CSS, SASS, Bootstrap 5
-- **Animations**: CSS Keyframes, Custom Transitions
-- **Icons**: FontAwesome 7, React Icons
-- **Utility**: Lenis (Smooth Scroll)
+*   **React (Vite):** Core framework for fast and dynamic UI building.
+*   **HTML5 & CSS3:** Semantic structure and custom styling with modern layouts.
+*   **JavaScript (ES6+):** Interactive elements, DOM manipulation, and smooth animations.
+*   **Lenis:** Used for seamless, smooth scrolling.
+*   **React Icons & FontAwesome:** SVG icons for the UI.
 
-## 🚀 Getting Started
+## 📁 Project Structure
 
-To get a local copy up and running, follow these simple steps:
+The portfolio is component-based and modular:
+*   `Header.jsx` - Sticky, responsive navigation with mobile menu toggle.
+*   `Hero.jsx` - Main landing section featuring a professional intro, dynamic counter, Resume download button, and engaging wave animations.
+*   `About.jsx` - Detailed professional background.
+*   `Services.jsx` - Core competencies like Web Development, Full Stack solutions, and Python scripting.
+*   `Experience.jsx` - Work history at various companies (Vhilv Technology, Robolix, etc.).
+*   `Projects.jsx` - Featured projects including dynamic content platforms and automated systems (e.g. Fleet Management, Arifa Innovation Council, Eagle Agro, Green Growth Landscaping).
+*   `Education.jsx` - Academic background.
+*   `Contact.jsx` - Contact form layout and my contact details.
+*   `Footer.jsx` - Simple copyright footer.
 
-### Prerequisites
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+## 🌟 Key Features
 
-### Installation
-1. Clone the repo
-   ```sh
-   git clone https://github.com/yourusername/portfolio.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Run the development server
-   ```sh
-   npm run dev
-   ```
+*   **Fully Responsive:** Looks and works great on Desktop, Tablet, and Mobile devices.
+*   **Smooth Animations:** Utilizes Intersection Observer API and CSS keyframes for fade-in elements upon scrolling.
+*   **Modern Aesthetics:** Deep dark mode with vibrant neon-purple gradients, glassmorphism UI elements, and glowing text.
+*   **Integrated Resume:** Direct "View Resume" functionality in the Hero section.
 
-## 📜 Available Scripts
+## 📬 Contact Me
 
-In the project directory, you can run:
-
-- `npm run dev`: Runs the app in development mode.
-- `npm run build`: Builds the app for production to the `dist` folder.
-- `npm run preview`: Locally preview the production build.
-- `npm run lint`: Runs ESLint to find and fix problems in the codebase.
+Feel free to reach out for collaborations, freelance work, or full-time opportunities:
+*   **Email:** [abishake9502@gmail.com](mailto:abishake9502@gmail.com)
+*   **LinkedIn:** [Abishake R](https://www.linkedin.com/in/abishake-r-789964266)
+*   **Location:** Tamil Nadu, India
 
 ---
-Designed and Developed by **Antigravity** for **Haribabu**.
-
+*Designed & Developed with care by Abishake R.*
