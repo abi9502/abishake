@@ -233,15 +233,36 @@
 /* Responsiveness */
 @media (max-width: 768px) {
     .card-content {
-        padding: 25px;
+        padding: 20px 15px;
     }
 
     .exp-company {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 
     .exp-description {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Fix flex alignments on mobile */
+    .experience-item .d-flex.justify-content-between {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 12px !important;
+    }
+
+    .experience-item .d-flex.flex-column.align-items-end {
+        align-items: flex-start !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        gap: 8px !important;
+    }
+
+    .exp-date {
+        font-size: 0.75rem;
+        padding: 6px 12px;
     }
 }
 

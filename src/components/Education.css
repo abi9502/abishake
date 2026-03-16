@@ -205,3 +205,48 @@
     transform: translateX(3px);
     color: #e4e4e7;
 }
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .edu-timeline {
+        margin-left: 15px; /* Prevent timeline dot from clipping on mobile */
+        padding-left: 15px;
+    }
+
+    .edu-dot {
+        left: -24px;
+    }
+
+    .edu-item {
+        padding-left: 20px;
+    }
+
+    .edu-card {
+        padding: 20px 15px;
+    }
+
+    .edu-degree {
+        font-size: 1.1rem;
+    }
+
+    .edu-institution {
+        font-size: 0.9rem;
+    }
+
+    .cert-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 15px;
+    }
+
+    .cert-content {
+        padding: 20px 15px;
+    }
+    
+    .cert-icon {
+        font-size: 1.5rem;
+    }
+    
+    .cert-title {
+        font-size: 0.9rem;
+    }
+}
