@@ -965,3 +965,18 @@ p.description,
 .hero-bio .para {
     text-align: justify;
 }
+
+/* Even padding for all containers on mobile to prevent edge-touching */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+        /* Ensures row negative margins don't completely cancel out the container padding */
+        overflow-x: hidden;
+    }
+    
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
