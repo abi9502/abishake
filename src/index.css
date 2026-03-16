@@ -876,7 +876,9 @@ a:hover {
     margin-top: 0;
     margin-bottom: 40px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
   .banner-counter ul {
@@ -954,4 +956,12 @@ a:hover {
   .projects-grid {
     grid-template-columns: 1fr !important;
   }
+}
+
+/* Global Text Justification for Descriptions */
+p.description,
+.project-desc,
+.service-description,
+.hero-bio .para {
+    text-align: justify;
 }
