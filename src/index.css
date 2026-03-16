@@ -809,8 +809,8 @@ a:hover {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
-    object-position: center 10% !important;
-    transform: scale(1.2) translateY(-30px) !important;
+    object-position: top center !important;
+    transform: scale(1.2) translateY(10px) !important;
     /* Adjusted position down slightly */
     transition: transform 0.5s ease;
   }
