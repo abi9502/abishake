@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Experience.css';
-import { FaLaptopCode, FaBriefcase, FaCalendarAlt, FaCode, FaDatabase, FaRobot } from "react-icons/fa";
+import { FaBriefcase, FaCalendarAlt, FaCode, FaDatabase, FaRobot } from "react-icons/fa";
 
 const cardMouseMove = (e) => {
     const card = e.currentTarget;
@@ -48,18 +48,6 @@ const experiences = [
             'Worked on AI-driven web platforms as a Full Stack Developer Intern. Built and styled responsive frontend interfaces and integrated backend APIs. Contributed to data visualization features and collaborated on improving user-facing dashboards using React and Python.',
         tags: ['React', 'Python', 'REST APIs', 'Data Visualization', 'Frontend', 'Backend'],
     },
-    {
-        type: 'internship',
-        company: "Let's Game Tech",
-        role: 'Web Development Intern',
-        icon: <FaLaptopCode />,
-        date: '15 Days · Internship',
-        badge: 'Internship',
-        badgeColor: '#5227FF',
-        description:
-            'Completed a short-term web development internship where I built and styled web pages, gained hands-on experience with HTML, CSS, and JavaScript, and contributed to UI implementation tasks in a fast-paced team environment.',
-        tags: ['HTML', 'CSS', 'JavaScript', 'Web Development', 'UI/UX'],
-    },
 ];
 
 const Experience = () => {
@@ -88,7 +76,7 @@ const Experience = () => {
                             <span className="subtitle text-primary text-uppercase fw-bold mb-2 d-block reveal-text">My Journey</span>
                             <h2 className="title text-white split-collab reveal-text" style={{ transitionDelay: '0.1s' }}>My Experience</h2>
                             <p className="reveal-text" style={{ color: '#a1a1aa', maxWidth: '600px', margin: '12px auto 0', transitionDelay: '0.2s', fontSize: '1rem' }}>
-                                9 months of internship experience &amp; 10 months of professional work experience across AI, robotics, and full-stack development companies.
+                                Over 1.5 years of professional work and internship experience across AI, robotics, and full-stack development companies.
                             </p>
                         </div>
                     </div>
@@ -99,13 +87,8 @@ const Experience = () => {
                     <div className="col-lg-10">
                         <div className="exp-stats-row">
                             <div className="exp-stat-card">
-                                <span className="exp-stat-number">10</span>
-                                <span className="exp-stat-label">Months Work Exp.</span>
-                            </div>
-                            <div className="exp-stat-divider" />
-                            <div className="exp-stat-card">
-                                <span className="exp-stat-number">9</span>
-                                <span className="exp-stat-label">Months Internships</span>
+                                <span className="exp-stat-number">1.5+</span>
+                                <span className="exp-stat-label">Years Exp.</span>
                             </div>
                             <div className="exp-stat-divider" />
                             <div className="exp-stat-card">
@@ -114,7 +97,7 @@ const Experience = () => {
                             </div>
                             <div className="exp-stat-divider" />
                             <div className="exp-stat-card">
-                                <span className="exp-stat-number">4</span>
+                                <span className="exp-stat-number">3</span>
                                 <span className="exp-stat-label">Roles Held</span>
                             </div>
                         </div>
