@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Experience.css';
-import { FaBriefcase, FaCalendarAlt, FaCode, FaDatabase, FaRobot } from "react-icons/fa";
+import { FaBriefcase, FaCalendarAlt, FaCode, FaDatabase, FaRobot, FaBug } from "react-icons/fa";
 
 const cardMouseMove = (e) => {
     const card = e.currentTarget;
@@ -48,6 +48,18 @@ const experiences = [
             'Worked on AI-driven web platforms as a Full Stack Developer Intern. Built and styled responsive frontend interfaces and integrated backend APIs. Contributed to data visualization features and collaborated on improving user-facing dashboards using React and Python.',
         tags: ['React', 'Python', 'REST APIs', 'Data Visualization', 'Frontend', 'Backend'],
     },
+    {
+        type: 'work',
+        company: 'Independent / Freelance',
+        role: 'Software Tester',
+        icon: <FaBug />,
+        date: 'Project Based',
+        badge: 'Experience',
+        badgeColor: '#f97316',
+        description:
+            'Conducted comprehensive manual and automated testing for web and software applications. Created detailed test cases, executed test plans, and performed rigorous bug tracking to ensure high software quality and reliability.',
+        tags: ['Software Testing', 'QA', 'Manual Testing', 'Automated Testing', 'Bug Tracking'],
+    },
 ];
 
 const Experience = () => {
@@ -92,12 +104,12 @@ const Experience = () => {
                             </div>
                             <div className="exp-stat-divider" />
                             <div className="exp-stat-card">
-                                <span className="exp-stat-number">3</span>
+                                <span className="exp-stat-number">4</span>
                                 <span className="exp-stat-label">Companies</span>
                             </div>
                             <div className="exp-stat-divider" />
                             <div className="exp-stat-card">
-                                <span className="exp-stat-number">3</span>
+                                <span className="exp-stat-number">4</span>
                                 <span className="exp-stat-label">Roles Held</span>
                             </div>
                         </div>
